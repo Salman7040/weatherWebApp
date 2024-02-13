@@ -1,0 +1,52 @@
+
+
+/* *{
+    box-sizing: border-box;
+    background-image: linear-gradient(-90deg,rgb(109, 109, 246),rgb(163, 163, 222),rgb(172, 172, 201),white);
+    
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: linear-gradient(to right,rgb(170, 170, 253),rgb(191, 191, 255),rgb(219, 219, 247),rgb(246, 246, 253));
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h3{
+    font-weight: bold;
+}
+.forecast{
+    
+    font-size: 0.9em;
+}
+span{
+    font-size: 1em;
+}
+li:hover{
+    background-color: lightslategray;
+    text-decoration: underline;
+}
+#current-weather{
+    background: linear-gradient(to left,rgb(168, 168, 235),rgb(211, 211, 237),rgb(237, 237, 245));
+}
+
+#clear-history{
+    margin: 0 0 10px 0;
+}
+
+#future-weather{
+    color: gray;
+    margin-top: 10px;
+}
+
+#search-con{
+    background: linear-gradient(to bottom,rgb(168, 168, 235),rgb(211, 211, 237),rgb(237, 237, 245));
+}
